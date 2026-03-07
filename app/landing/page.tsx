@@ -1,18 +1,21 @@
 "use client"
 
 import DottedGlowBackgroundDemoSecond from "@/components/dotted-glow-background-demo-2"
+import { Navbar } from "@/components/navbar"
 import { Button } from "@/components/ui/button"
 import { DottedGlowBackground } from "@/components/ui/dotted-glow-background"
-
+import InvoiceCard from "@/components/ui/invoice"
+import PaymentFooter from "@/components/ui/PaymentFooter"
 export function Landing(){
 
     async function handlelogin(){
         const response=await fetch("")
 
     }
-    return <div className="min-h-screen bg-linear-to-b from-orange-500 to bg-neutral-400">
+    return <div className="min-h-screen bg-linear-to-b from-orange-300 to bg-neutral-400">
+       <Navbar></Navbar>
     <div className="flex w-full justify-end px-10 py-10">
-        <button className="flex items-center justify-center space-x-3 px-6 py-3 rounded-lg
+        <button className="flex  px-6 py-3 rounded-lg
                bg-linear-to-r from-blue-500 to-blue-600
                hover:from-blue-600 hover:to-blue-400
                text-white text-sm font-semibold
@@ -24,19 +27,21 @@ export function Landing(){
             </svg>
             Connect with twitter
         </button>
-
     </div>
-    <div id="#about"className="flex justify-center">
+    <div id="about"className="flex justify-center">
         Tired of going through banger posts and manually autoPlugging everytime.
         AutoPlug will take care!!
     </div>
     
-    <div id="#how" className="">
+    <div id="how" className="">
         <DottedGlowBackgroundDemoSecond></DottedGlowBackgroundDemoSecond>
-
     </div>
-    <div id="#pricing"className="flex justify-center px-4">
-       pricing
+    
+    <div id="pricing"className=" justify-center px-4">
+        
+    <InvoiceCard/>
+    <PaymentFooter />
+       
     </div>
     </div>
 }
