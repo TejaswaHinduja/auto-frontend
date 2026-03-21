@@ -25,6 +25,7 @@ export default function InvoiceCard() {
           <hr className="my-3"/>
           <PaymentStatus />
           <div className="flex gap-3 mt-5">
+
             <button className="flex-1 rounded-full py-2 text-sm bg-white border shadow-md">
               Download Invoice
             </button>
