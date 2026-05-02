@@ -6,7 +6,8 @@ export function Navbar(){
         window.location.href = 'http://localhost:4000/api/auth/twitter';
     }
     return (
-        <div className="flex-row">
+        <div className="flex justify-between items-center">
+            <div>AUTO PLUGGGGGGGG</div>
             <div className="flex items-center justify-center py-8">
             <Link className="px-4 text-2xl" href="#how">How it Works</Link>
             <Link className="px-4 text-2xl"  href="#about">How it Works</Link>
