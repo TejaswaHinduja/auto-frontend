@@ -8,7 +8,7 @@ import InvoiceCard from "@/components/ui/invoice"
 
 export function Landing(){
     
-    return <div className="min-h-scree">
+    return <div className="min-h-screen">
        <Navbar></Navbar>
     
     <section id="about" className="flex ml-60 justify-center w-150 line-clamp-1">{/*ask about how to make this correct since ml-60 is not the way to go*/}
