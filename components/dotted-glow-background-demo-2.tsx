@@ -3,7 +3,7 @@ import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 
 export default function DottedGlowBackgroundDemoSecond() {
   return (
-    <div className="relative mx-auto flex w-full max-w-7xl items-center justify-center">
+    <div className="relative mx-auto flex w-64 bg-orange-300 rounded-xl max-w-7xl items-center justify-center">
       <DottedGlowBackground
         className="pointer-events-none mask-radial-to-90% mask-radial-at-center opacity-20 dark:opacity-100"
         opacity={1}
