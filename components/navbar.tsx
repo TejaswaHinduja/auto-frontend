@@ -11,8 +11,8 @@ export function Navbar(){
             <div className="flex items-center justify-center py-8">
 
             <Link className="px-4 text-2xl" href="#how">How it Works</Link>
-            <Link className="px-4 text-2xl" href="#about">Pricing</Link>
-            <Link className="px-4 text-2xl" href="#pricing">About Me</Link>
+            <Link className="px-4 text-2xl" href="#pricing">Pricing</Link>
+            <Link className="px-4 text-2xl" href="#about">About Me</Link>
 
             </div>
 

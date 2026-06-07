@@ -21,10 +21,9 @@ export function Landing(){
         <DottedGlowBackgroundDemoSecond></DottedGlowBackgroundDemoSecond>
     </div>
     
-    <div id="pricing"className=" justify-center px-4">
-        
+    <div id="pricing" className=" justify-center px-4">
     <InvoiceCard/>
-   
     </div>
+    
     </div>
 }
